@@ -1,0 +1,101 @@
+body{
+    background: linear-gradient(rgb(79, 169, 224),pink);
+    min-height: 90vh;
+}
+
+h1{
+    text-align: center;
+    color:white;
+    text-decoration: underline;
+}
+
+h2{
+    text-align: center;
+    color:white;
+}
+
+input,
+button {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px;
+    justify-content:space-around;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+.imageContainers{
+    display:flex;
+}
+.close-button{
+    background-color: rgb(141, 14, 14);
+    width: 180px;
+    margin-top: 5%;
+}
+
+.image{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17vw;
+    height: 17vw;
+    border-radius:100%;
+}
+
+.nomProjet{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3vw;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    border: 0.2vw solid black;
+    margin-top:1vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 2vw;
+}
+
+.categoriesMenu{ 
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    height: 6vh;
+    align-items: center;
+    font-size: 1.4em;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.espaceClient{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2vw;
+}
+
+.infos{
+    margin-bottom: 3vw;
+}
