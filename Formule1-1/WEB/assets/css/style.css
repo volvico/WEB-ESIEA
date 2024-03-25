@@ -1,0 +1,98 @@
+body{
+    background: linear-gradient(180deg, rgba(0,0,0,1) 60%, rgba(250,0,0,1) 100%); 
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.cadreTexte{
+    border: 0.1vw solid white; 
+    background-color: red;
+    color: rgb(255, 255, 255);
+}
+
+.categoriesMenu{ 
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 4vh;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+#ActualitesTitre {
+    text-align: center;
+    color: rgba(155, 92, 92, 0.84);
+    text-decoration: underline;
+}
+
+.titre{
+    text-align: center;
+    color: rgba(121, 115, 115, 0.84);
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+.first h2{
+    margin-top: 5vw;
+    margin-left: 3vw;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.first div{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#imgF1{
+    width: 98vw;
+}
+
+#Hamilton{
+    width: 20vw;
+    height: auto;
+    text-align: center;
+}
+
+.bande{
+    color: rgb(255, 255, 255);
+}
+
+.first{
+    background-color: #8C030E;
+    display: flex;
+    justify-content: space-around;
+    border: 0.1vw solid white;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.classement{
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    border: 0.1vw solid white;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2vw;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.classement2{
+    margin-top: 2vw;
+    margin-left: 10vw;
+    color:white;
+}
+
+.imageAccueil {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5vw;
+}
+

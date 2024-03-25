@@ -1,0 +1,64 @@
+.redbull-background{
+    background: linear-gradient(rgb(10,10,108), rgb(117, 117, 134));
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.titre{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}
+
+img{
+    display: flex;
+    margin: auto;
+}
+
+li{
+    margin-top: 1vw;
+    margin-left: 8vw;
+    color: white;
+}
+
+.h2{
+    display: flex;
+    justify-content: center;
+    gap: 30vw;
+}
+
+.equipe{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10vw;
+
+}
+
+.first-RedBull{
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3vw;
+    border: 0.1vw solid white;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.palmares{
+    display: flex;
+    justify-content: center;
+    gap: 22vw;
+    margin-right: 15vw;
+}
+
+.categoriesMenu{ 
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 4vh;
+    align-items: center;
+    font-size: 1.2em;
+}
