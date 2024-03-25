@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.8">
+        <title>COUCOU JADE</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <header id="accueil">
+            <img src="assets/img/joly.png" alt="Logo de l'entretrise" width="15%">
+            <h1 class="titre">JOLY AUTOMOBILE</h1>
+            <img class="img" src="assets/img/joly.png" alt="Logo de l'entretrise" width="15%">
+        </header>
+
+        <div class="first">
+            <a class="categoriesMenu" href="#accueil">Accueil</a>
+            <a class="categoriesMenu" href="#piece">Pieces</a>
+            <a class="categoriesMenu" href="#ML">Mentions Légales</a>
+            <a class="categoriesMenu" href="#contact">Contact</a>
+        </div>
+
+        <div class="slider-container">
+            <div class="menu">
+                <label for="slide-dot-1"></label>
+                <label for="slide-dot-2"></label>
+                <label for="slide-dot-3"></label>
+            </div>
+
+            <input class="slide-input" id="slide-dot-1" type="radio" name="slides" checked>
+            <img class="slide-img" src="assets/img/diapo1.png">
+
+            <input class="slide-input" id="slide-dot-2" type="radio" name="slides">
+            <img class="slide-img" src="assets/img/diapo2.png">
+
+            <input class="slide-input" id="slide-dot-3" type="radio" name="slides">
+            <img class="slide-img" src="assets/img/diapo3.png">
+
+        </div>
+
+        <h2 class="titre" id="piece">Pièces disponibles</h2>
+        
+        <div class="vignette">
+            <img src="assets/img/batterie.png" alt="image produit 1" width="30%">
+            <img src="assets/img/moteur.png" alt="image produit 2" width="30%">
+            <img src="assets/img/vilbrequin.png" alt="image produit 3" width="30%">
+        </div>
+
+        <div class="objet">
+            <p>BATTERIE</p>
+            <p>MOTEUR</p>
+            <p>VILBREQUIN</p>
+        </div>
+
+        <h2 id="ML">Mentions légales</h2>
+
+        <footer>
+            <p class="footer">
+                Découvrez l'excellence automobile avec Joly Automobile. Parcourez notre vaste sélection de voitures neuves et d'occasion, allant des véhicules familiaux polyvalents aux voitures de sport élégantes. Notre équipe dévouée vous guide à travers chaque étape de votre recherche, vous offrant des conseils d'experts et un service personnalisé pour trouver le véhicule parfait qui correspond à vos besoins et à votre style de vie. Avec des marques réputées et des modèles de qualité, nous vous garantissons une conduite sûre et confortable. Explorez notre inventaire en ligne dès maintenant et prenez la route vers votre prochaine aventure automobile.
+            </p>
+
+            <p class="footer">Mentions légales :
+
+                Ce site web est édité par Victor EDET.
+                
+                Directeur de la publication : Victor EDET.
+                
+                <p class="footer">
+                Droits d'auteur :
+                Tous les éléments présents sur ce site (textes, images, vidéos, etc.) sont la propriété exclusive de [Nom de votre entreprise ou de la personne responsable] et/ou de ses partenaires. Toute reproduction, même partielle, est strictement interdite sans autorisation préalable.
+                </p>
+                <p class="footer">
+                Protection des données personnelles :
+                Les informations collectées via ce site sont destinées à [Nom de votre entreprise ou de la personne responsable] et ne seront en aucun cas transmises à des tiers. Conformément à la loi "Informatique et Libertés" du 6 janvier 1978, vous disposez d'un droit d'accès, de rectification et de suppression des données vous concernant. Pour exercer ce droit, veuillez nous contacter à l'adresse indiquée ci-dessus.
+                </p>
+                
+                <p class="footer">
+                Cookies :
+                Ce site utilise des cookies pour améliorer l'expérience utilisateur. En naviguant sur ce site, vous acceptez l'utilisation de ces cookies.
+                </p>
+            </p>
+
+            <h2 id="contact">Contactez-nous</h2>
+
+            <form action="#" method="POST">
+                <div class="contact">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+                <div class="contact">
+                    <label for="email">E-mail :</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div class="contact">
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+            </form>
+            <input class="contact" type="submit" value="Envoyer">
+
+        </footer>
+    </body>
+</html>
